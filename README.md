@@ -1,7 +1,7 @@
 AIBud
 ===
 
-An experimental project that predicts key & scale you are playing in realtime with ML regressions by reading MIDI data. Training and predicting data sources are generated with [MusicTheory](https://github.com/cemolcay/MusicTheory) library. Regression stuff written with [CreateML]() in Xcode playgrounds.
+An experimental project that predicts key & scale you are playing in realtime with ML regressions by reading MIDI data. Training and predicting data sources are generated with [MusicTheory](https://github.com/cemolcay/MusicTheory) library. ML Regression written with [CreateML](https://developer.apple.com/documentation/create_ml) in Xcode playgrounds.
 
 Requirements
 ---
