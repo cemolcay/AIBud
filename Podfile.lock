@@ -1,0 +1,20 @@
+PODS:
+  - MusicTheorySwift (1.0.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - MusicTheorySwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MusicTheorySwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  MusicTheorySwift: 2102218ba959c04204f376d02f7719fe5f4cfb98
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: e0aba7477113c1209e73cc6a64782a6ca0acf4ef
+
+COCOAPODS: 1.5.3

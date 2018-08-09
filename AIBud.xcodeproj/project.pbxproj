@@ -11,16 +11,21 @@
 		B209E9E0210FA8FF00E93510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B209E9DF210FA8FF00E93510 /* ViewController.swift */; };
 		B209E9E2210FA90000E93510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B209E9E1210FA90000E93510 /* Assets.xcassets */; };
 		B209E9E5210FA90000E93510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B209E9E3210FA90000E93510 /* Main.storyboard */; };
+		B209E9ED210FA9BB00E93510 /* Pods_CreateMLStuff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9A531CCEFAADA716E4EF13 /* Pods_CreateMLStuff.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B209E9DA210FA8FF00E93510 /* CreateMLStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateMLStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF21A06B9B0CDD041D64D75 /* Pods-CreateMLStuff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateMLStuff.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreateMLStuff/Pods-CreateMLStuff.debug.xcconfig"; sourceTree = "<group>"; };
+		B209E9DA210FA8FF00E93510 /* AIBud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIBud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B209E9DD210FA8FF00E93510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B209E9DF210FA8FF00E93510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B209E9E1210FA90000E93510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B209E9E4210FA90000E93510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B209E9E6210FA90000E93510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B209E9E7210FA90000E93510 /* CreateMLStuff.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CreateMLStuff.entitlements; sourceTree = "<group>"; };
+		B209E9E7210FA90000E93510 /* AIBud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AIBud.entitlements; sourceTree = "<group>"; };
+		B2909D35211C293E006D0F11 /* MLPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MLPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DAB0DD3AFF535D20769A31CA /* Pods-CreateMLStuff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateMLStuff.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreateMLStuff/Pods-CreateMLStuff.release.xcconfig"; sourceTree = "<group>"; };
+		FD9A531CCEFAADA716E4EF13 /* Pods_CreateMLStuff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreateMLStuff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,59 +33,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B209E9ED210FA9BB00E93510 /* Pods_CreateMLStuff.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		420B1EBEB2DAFDB81A2EA70D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF21A06B9B0CDD041D64D75 /* Pods-CreateMLStuff.debug.xcconfig */,
+				DAB0DD3AFF535D20769A31CA /* Pods-CreateMLStuff.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		76C919E707E1035D3C57EEFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD9A531CCEFAADA716E4EF13 /* Pods_CreateMLStuff.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B209E9D1210FA8FF00E93510 = {
 			isa = PBXGroup;
 			children = (
-				B209E9DC210FA8FF00E93510 /* CreateMLStuff */,
+				B209E9DC210FA8FF00E93510 /* AIBud */,
 				B209E9DB210FA8FF00E93510 /* Products */,
+				420B1EBEB2DAFDB81A2EA70D /* Pods */,
+				76C919E707E1035D3C57EEFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B209E9DB210FA8FF00E93510 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B209E9DA210FA8FF00E93510 /* CreateMLStuff.app */,
+				B209E9DA210FA8FF00E93510 /* AIBud.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B209E9DC210FA8FF00E93510 /* CreateMLStuff */ = {
+		B209E9DC210FA8FF00E93510 /* AIBud */ = {
 			isa = PBXGroup;
 			children = (
+				B2909D35211C293E006D0F11 /* MLPlayground.playground */,
 				B209E9DD210FA8FF00E93510 /* AppDelegate.swift */,
 				B209E9DF210FA8FF00E93510 /* ViewController.swift */,
 				B209E9E1210FA90000E93510 /* Assets.xcassets */,
 				B209E9E3210FA90000E93510 /* Main.storyboard */,
 				B209E9E6210FA90000E93510 /* Info.plist */,
-				B209E9E7210FA90000E93510 /* CreateMLStuff.entitlements */,
+				B209E9E7210FA90000E93510 /* AIBud.entitlements */,
 			);
-			path = CreateMLStuff;
+			path = AIBud;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B209E9D9210FA8FF00E93510 /* CreateMLStuff */ = {
+		B209E9D9210FA8FF00E93510 /* AIBud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B209E9EA210FA90000E93510 /* Build configuration list for PBXNativeTarget "CreateMLStuff" */;
+			buildConfigurationList = B209E9EA210FA90000E93510 /* Build configuration list for PBXNativeTarget "AIBud" */;
 			buildPhases = (
+				8D9ECB13C87B40280D9F096C /* [CP] Check Pods Manifest.lock */,
 				B209E9D6210FA8FF00E93510 /* Sources */,
 				B209E9D7210FA8FF00E93510 /* Frameworks */,
 				B209E9D8210FA8FF00E93510 /* Resources */,
+				BA9CB500E30555D0468495F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CreateMLStuff;
+			name = AIBud;
 			productName = CreateMLStuff;
-			productReference = B209E9DA210FA8FF00E93510 /* CreateMLStuff.app */;
+			productReference = B209E9DA210FA8FF00E93510 /* AIBud.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,10 +123,15 @@
 				TargetAttributes = {
 					B209E9D9210FA8FF00E93510 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = B209E9D5210FA8FF00E93510 /* Build configuration list for PBXProject "CreateMLStuff" */;
+			buildConfigurationList = B209E9D5210FA8FF00E93510 /* Build configuration list for PBXProject "AIBud" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B209E9D9210FA8FF00E93510 /* CreateMLStuff */,
+				B209E9D9210FA8FF00E93510 /* AIBud */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +160,47 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D9ECB13C87B40280D9F096C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreateMLStuff-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9CB500E30555D0468495F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CreateMLStuff/Pods-CreateMLStuff-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MusicTheorySwift/MusicTheorySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MusicTheorySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreateMLStuff/Pods-CreateMLStuff-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B209E9D6210FA8FF00E93510 /* Sources */ = {
@@ -269,38 +343,44 @@
 		};
 		B209E9EB210FA90000E93510 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF21A06B9B0CDD041D64D75 /* Pods-CreateMLStuff.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CreateMLStuff/CreateMLStuff.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AIBud/AIBud.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = CreateMLStuff/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AIBud/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.CreateMLStuff;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.aibud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		B209E9EC210FA90000E93510 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB0DD3AFF535D20769A31CA /* Pods-CreateMLStuff.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = CreateMLStuff/CreateMLStuff.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AIBud/AIBud.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = CreateMLStuff/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AIBud/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.CreateMLStuff;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.aibud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -308,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B209E9D5210FA8FF00E93510 /* Build configuration list for PBXProject "CreateMLStuff" */ = {
+		B209E9D5210FA8FF00E93510 /* Build configuration list for PBXProject "AIBud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B209E9E8210FA90000E93510 /* Debug */,
@@ -317,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B209E9EA210FA90000E93510 /* Build configuration list for PBXNativeTarget "CreateMLStuff" */ = {
+		B209E9EA210FA90000E93510 /* Build configuration list for PBXNativeTarget "AIBud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B209E9EB210FA90000E93510 /* Debug */,
